@@ -76,6 +76,7 @@ section{
 
 .btn{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     display:inline-block;
     padding:.9rem 3rem;
     border-radius: .5rem;
@@ -332,9 +333,14 @@ section{
 
 .home .row .content p{
     color:var(--light-color);
-    font-size: 1.4rem;
+    font-size: 2rem;
+    width: 82%;
     line-height: 2;
     padding:1rem 0;
+}
+.home .row .content p span {
+    color: var(--green);
+    font-weight: bold;
 }
 
 .icons-container{
@@ -559,9 +565,10 @@ section{
 }
 
 .deal .content p{
+    width: 70%;
     padding:1rem 0;
     color:var(--light-color);
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 2;
 }
 
@@ -813,13 +820,31 @@ section{
         margin-left:0;
         max-width: 100%;
     }
+    
 
 }
 
+@media (max-width: 788px){
+    .deal .content{
+        text-align: center;
+    }
+    .deal .content p {
+        width: 100%;
+    }
+    .home .row .content p {
+        width: 100%;
+    }
+}
 @media (max-width:450px){
 
     html{
         font-size: 50%;
+    }
+    .deal .content{
+        text-align: center;
+    }
+    .deal .content p {
+        width: 100%;
     }
 
 }
