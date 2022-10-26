@@ -78,16 +78,16 @@ section {
 }
 
 .btn {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-    padding: 1.5rem 4rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    background: var(--green);
-    font-size: 2.15rem;
-    cursor: pointer;
-    font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: var(--green);
+  font-size: 2.15rem;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .btn:hover {
@@ -267,6 +267,7 @@ section {
 }
 
 .login-form-container form .checkbox label {
+  padding-right: 0.45rem;
   font-size: 1.5rem;
   color: var(--light-color);
   cursor: pointer;
