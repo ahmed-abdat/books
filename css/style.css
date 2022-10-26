@@ -132,6 +132,10 @@ section {
   color: var(--black);
 }
 
+.header .header-1 .search-form input::placeholder {
+    font-size: 2rem;
+}
+
 .header .header-1 .search-form label {
   font-size: 2.5rem;
   padding-left: 1.5rem;
