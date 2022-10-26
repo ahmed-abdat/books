@@ -78,16 +78,16 @@ section {
 }
 
 .btn {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: inline-block;
-  padding: 0.9rem 3rem;
-  border-radius: 0.5rem;
-  color: #fff;
-  background: var(--green);
-  font-size: 1.7rem;
-  cursor: pointer;
-  font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 2.15rem;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .btn:hover {
@@ -821,6 +821,9 @@ section {
     margin-left: 0;
     max-width: 100%;
   }
+  .deal .content {
+    text-align: center;
+  }
 }
 
 @media (max-width: 788px) {
@@ -843,5 +846,8 @@ section {
   }
   .deal .content p {
     width: 100%;
+  }
+  .icons-container .icons i {
+    margin-right: 1.5rem;
   }
 }
